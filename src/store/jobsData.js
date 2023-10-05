@@ -21,7 +21,7 @@ export const getAlljobs = createAsyncThunk(
 const jobsSlice = createSlice({
   name: "job",
   initialState: {
-    jobs: JSON.parse(localStorage.getItem("jobs")),
+    jobs: JSON.parse(localStorage.getItem("jobs")) || [],
     loading: false,
     application: JSON.parse(localStorage.getItem("application")),
     auth: JSON.parse(localStorage.getItem("auth")),

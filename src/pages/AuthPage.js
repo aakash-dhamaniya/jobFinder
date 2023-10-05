@@ -24,10 +24,7 @@ function AuthPage() {
             onSubmit={submitHandler}
           >
             <div>
-              <label
-                for="email"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-              >
+              <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                 Your email
               </label>
               <input
@@ -40,10 +37,7 @@ function AuthPage() {
               />
             </div>
             <div>
-              <label
-                for="password"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-              >
+              <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                 Password
               </label>
               <input
